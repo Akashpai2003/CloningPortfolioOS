@@ -392,13 +392,13 @@ const ProjectDetail = ({ project, onBack }: { project: Project; onBack: () => vo
                </p>
                <div className="space-y-2">
                   <div className="flex items-center gap-3 text-sm font-mono border-b border-black/10 pb-2">
-                     <MousePointerClick size={14} /> <span>Hover Trigger -> 200ms delay</span>
+                     <MousePointerClick size={14} /> <span>Hover Trigger &rarr; 200ms delay</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm font-mono border-b border-black/10 pb-2">
                      <Layers size={14} /> <span>Z-Index Stacking Context</span>
                   </div>
                   <div className="flex items-center gap-3 text-sm font-mono border-b border-black/10 pb-2">
-                     <Smartphone size={14} /> <span>Touch Target > 44px</span>
+                     <Smartphone size={14} /> <span>Touch Target &gt; 44px</span>
                   </div>
                </div>
             </div>
